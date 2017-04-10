@@ -1,5 +1,5 @@
 {
-	"loginurls": [ {
+	"login_info": [ {
 		"name": "app1_bryce",
 		"domain": "app1.com",
 		"start_url": "https://app1.com",

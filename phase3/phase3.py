@@ -18,10 +18,11 @@ defaultHeader = {
 		}
 with open('../s2.json') as file:
 	payloads = json.load(file);
-with open('../config.json') as file:
+with open('../info.json') as file:
 	print "--------------loading login information--------------------"
 	data = json.load(file)
 	for loginurls in data["loginurls"]:
+	# obtain login credentials for current webapp and add it to dictionary
 		if loginurls["name"] == runname:
 			loginurl = loginurls["loginurl"]
 			loginPayload = loginurls["loginpayload"]
@@ -33,7 +34,6 @@ with open('../config.json') as file:
 				loginPayloadDict[loginurl] = loginPayload
 			
 with open("../results/"+runname+'.json') as data_file:
-#with open('phase1.json') as data_file:
 	print "--------------loading url information--------------------"
 	data = json.load(data_file)
 	urlsToProcess = data["urls"]
@@ -41,9 +41,6 @@ with open("../results/"+runname+'.json') as data_file:
 		url = urls["url"]
 		if (url in loginPayloadDict) and (urls["type"] =="POST") and urls["param"]:	
 			urlsToProcess.remove(urls)
-			#process login urls firstif url in loginPayloadDict:
-			#it's a log in url
-			#get all log in accounts and password
 			crendentials = loginPayloadDict[url]
 			initialLoad = copy.deepcopy(urls["param"])
 			#get first log in credential to test is enough

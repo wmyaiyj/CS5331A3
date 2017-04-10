@@ -21,7 +21,7 @@ with open('../s2.json') as file:
 with open('../info.json') as file:
 	print "--------------loading login information--------------------"
 	data = json.load(file)
-	for loginurls in data["loginurls"]:
+	for loginurls in data["login_info"]:
 	# obtain login credentials for current webapp and add it to dictionary
 		if loginurls["name"] == runname:
 			loginurl = loginurls["loginurl"]

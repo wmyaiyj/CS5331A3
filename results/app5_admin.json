@@ -1,0 +1,2317 @@
+{
+	"urls": [{
+		"url": "https://app5.com/www/index.php?index_page",
+		"loginurl": "",
+		"type": "POST",
+		"loginrequired": "false",
+		"param": {
+			"login": ["admin"],
+			"password": ["admin"],
+			"_qf__login_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/index.php?index_page",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"login": ["None"],
+			"password": ["None"],
+			"_qf__login_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"logout": ["true"]
+		},
+		"headers": {},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["lesson_info"],
+			"courses_ID": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php?ctg=contact",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"message_body": [""],
+			"_qf__contact_form": [""],
+			"email": ["None"],
+			"message_subject": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["contact"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php?ctg=reset_pwd",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__reset_password_form": [""],
+			"login_or_pwd": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["reset_pwd"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["lessons"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php?ctg=signup",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"firstName": ["None"],
+			"passrepeat": ["None"],
+			"lastName": ["None"],
+			"comments": [""],
+			"login": ["None"],
+			"_qf__signup_register_personal_form": [""],
+			"password": ["None"],
+			"email": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["signup"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["lesson_info"],
+			"lessons_ID": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["lesson_info"],
+			"lessons_ID": ["2"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=control_panel&op=search",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"search_text": ["Search"],
+			"current_location": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["personal"],
+			"user": ["admin"],
+			"op": ["dashboard"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["lesson_info"],
+			"lessons_ID": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php?ctg=lesson_info&lessons_ID=1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/index.php",
+		"param": {
+			"ctg": ["lesson_info"],
+			"lessons_ID": ["2"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/index.php?ctg=lesson_info&lessons_ID=2",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["personal"],
+			"user": ["admin"],
+			"op": ["dashboard"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=dashboard",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=profile",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"file_upload": ["None"],
+			"surname": ["Administrator"],
+			"name": ["System"],
+			"passrepeat": ["None"],
+			"user_type": ["administrator"],
+			"password_": ["None"],
+			"active": ["1"],
+			"short_description": [""],
+			"login": ["admin"],
+			"_qf__user_form": [""],
+			"email": ["admin@adminc.om"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["personal"],
+			"user": ["admin"],
+			"op": ["profile"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=dashboard",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["calendar"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=dashboard",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["users"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=dashboard",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["control_panel"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=dashboard",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["messages"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=dashboard",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["logout_user"]
+		},
+		"headers": {},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["forum"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=dashboard",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"show_avatars_list": ["1"],
+			"ctg": ["personal"],
+			"user": ["admin"],
+			"popup": ["1"],
+			"op": ["profile"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=personal&op=profile&user=admin",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=personal&user=admin&op=profile&add_user=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"file_upload": ["None"],
+			"surname": ["None"],
+			"name": ["None"],
+			"passrepeat": ["None"],
+			"password_": ["None"],
+			"active": ["1"],
+			"short_description": [""],
+			"login": ["None"],
+			"_qf__user_form": [""],
+			"email": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["personal"],
+			"user": ["admin"],
+			"op": ["profile"],
+			"add_user": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=users",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["news"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=news&add=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"popup": ["1"],
+			"title": ["None"],
+			"_qf__create_form": [""],
+			"calendar": ["None"],
+			"data": [""],
+			"email": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["news"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=messages&add=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"body": [""],
+			"recipients": ["None"],
+			"previous_url": ["https://app5.com/www/administrator.php?ctg=messages"],
+			"bcc": ["None"],
+			"attachment[0]": ["None"],
+			"specific_course_completed": ["None"],
+			"recipient": ["None"],
+			"email": ["None"],
+			"_qf__new_message_form": [""],
+			"subject": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["messages"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=messages",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"folder": ["3"],
+			"ctg": ["messages"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=messages",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=messages&folders=true&add=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"popup": ["1"],
+			"_qf__create_form": [""],
+			"name": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"folders": ["true"],
+			"add": ["1"],
+			"ctg": ["messages"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=messages",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"folder": ["2"],
+			"ctg": ["messages"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=messages",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["module"],
+			"op": ["module_rss"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"folder": ["1"],
+			"ctg": ["messages"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=messages",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=module&op=module_chat&setChatHeartBeat=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"rate": ["2"],
+			"rate2": ["30"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=module&op=module_chat&createLog=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"lessontitle": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["module"],
+			"op": ["module_chat"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=modules",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__upload_file_form": [""],
+			"MAX_FILE_SIZE": ["2097152"],
+			"file_upload[0]": ["None"],
+			"overwrite": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["modules"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=maintenance&tab=lock_down",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__lockdown_form": [""],
+			"lock_message": [""],
+			"logout_users": ["1"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=maintenance&tab=cleanup",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__cleanup_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=maintenance&tab=cleanup",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__cleanup_notifications_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=maintenance&tab=cleanup",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__cleanup_events_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["maintenance"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=backup",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"file_upload[4]": ["None"],
+			"file_upload[2]": ["None"],
+			"file_upload[3]": ["None"],
+			"file_upload[1]": ["None"],
+			"file_upload[0]": ["None"],
+			"upload_current_directory": [""],
+			"file_upload[6]": ["None"],
+			"_qf__upload_file_form_filesTable": [""],
+			"file_upload[5]": ["None"],
+			"url_upload": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["statistics"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=backup",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"create_directory": ["None"],
+			"current_directory": [""],
+			"_qf__create_folder_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=backup",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"backupname": ["backup_2016_04_20_02.20.38"],
+			"_qf__backup_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["backup"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=languages",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"selected_language": [""],
+			"language_upload": ["None"],
+			"rtl": ["None"],
+			"english_name": ["None"],
+			"_qf__create_language_form": [""],
+			"translation": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["languages"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=digests&tab=config_tab",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__configuration_form": [""],
+			"notifications_use_cron": ["None"],
+			"notifications_maximum_inter_time": ["0"],
+			"notifications_pageloads": ["10"],
+			"notifications_messages_per_time": ["5"],
+			"notifications_max_sent_messages": ["100"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["digests"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=themes&theme=2",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"file_upload": ["None"],
+			"_qf__import_settings_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"theme": ["2"],
+			"ctg": ["themes"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&edit=2&type=forum&parent_forum_id=0",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["Maya civilization"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"edit": ["2"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["0"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["forum"],
+			"forum": ["2"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&edit=4&type=forum&parent_forum_id=0",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["How to be a programmer - Intermediate"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"edit": ["4"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["0"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["forum"],
+			"forum": ["4"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&edit=3&type=forum&parent_forum_id=0",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["How to be a programmer - Beginner"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"edit": ["3"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["0"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&edit=5&type=forum&parent_forum_id=0",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["How to be a programmer - Advanced"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"edit": ["5"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["0"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["forum"],
+			"forum": ["3"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["forum"],
+			"forum": ["5"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=module&op=module_rss&add_feed_provider=1&lesson=1&tab=rss_provider",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"active": ["1"],
+			"popup": ["1"],
+			"_qf__add_feed_provider_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"lesson": ["1"],
+			"ctg": ["module"],
+			"add_feed_provider": ["1"],
+			"popup": ["1"],
+			"op": ["module_rss"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=module&op=module_rss",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=module&op=module_rss&add_feed_provider=1&tab=rss_provider",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"active": ["1"],
+			"popup": ["1"],
+			"_qf__add_feed_provider_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["module"],
+			"add_feed_provider": ["1"],
+			"popup": ["1"],
+			"op": ["module_rss"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=module&op=module_rss",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=module&op=module_rss&edit_feed=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"popup": ["1"],
+			"title": ["eFront news"],
+			"url": ["http://www.efrontlearning.net/product/efront-news?format=feed&type=rss&install=1"],
+			"only_summary": ["None"],
+			"active": ["1"],
+			"_qf__add_feed_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"edit_feed": ["1"],
+			"ctg": ["module"],
+			"popup": ["1"],
+			"op": ["module_rss"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=module&op=module_rss",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=module&op=module_rss&add_feed=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"popup": ["1"],
+			"title": ["None"],
+			"url": ["None"],
+			"only_summary": ["None"],
+			"active": ["1"],
+			"_qf__add_feed_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add_feed": ["1"],
+			"ctg": ["module"],
+			"popup": ["1"],
+			"op": ["module_rss"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=module&op=module_rss",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["forum"],
+			"forum": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&config=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"popup": ["1"],
+			"_qf__forum_admin_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["forum"],
+			"config": ["1"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["statistics"],
+			"option": ["system"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=statistics",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["statistics"],
+			"option": ["course"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=statistics",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=digests&edit_notification=4&event=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__digests_form": [""],
+			"message": [""],
+			"html_message": ["None"],
+			"header": ["Registration email"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["digests"],
+			"event": ["1"],
+			"edit_notification": ["4"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=digests",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&edit=1&type=forum&parent_forum_id=0",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["Greedy algorithms"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"edit": ["1"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["0"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=digests&edit_notification=3&event=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__digests_form": [""],
+			"message": [""],
+			"html_message": ["None"],
+			"header": ["Account activation email"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["digests"],
+			"event": ["1"],
+			"edit_notification": ["3"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=digests",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=poll&forum_id=4",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"poll_subject": ["None"],
+			"popup": ["1"],
+			"_qf__poll_add_form": [""],
+			"options[0]": ["None"],
+			"options[1]": ["None"],
+			"poll_text": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["poll"],
+			"forum_id": ["4"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=4",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=digests&edit_notification=2&event=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__digests_form": [""],
+			"message": [""],
+			"html_message": ["None"],
+			"header": ["Recover your password"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["digests"],
+			"event": ["1"],
+			"edit_notification": ["2"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=digests",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=digests&edit_notification=1&event=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__digests_form": [""],
+			"message": [""],
+			"html_message": ["None"],
+			"header": ["Recover your password"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["digests"],
+			"event": ["1"],
+			"edit_notification": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=digests",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=themes&add=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"remote_theme": ["None"],
+			"theme_file": ["None"],
+			"popup": ["1"],
+			"_qf__create_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["themes"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=themes&theme=2",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/",
+		"param": {},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=themes&theme=2",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=poll&forum_id=2",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"poll_subject": ["None"],
+			"popup": ["1"],
+			"_qf__poll_add_form": [""],
+			"options[0]": ["None"],
+			"options[1]": ["None"],
+			"poll_text": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["poll"],
+			"forum_id": ["2"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=2",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=topic&forum_id=4",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__topic_add_form": [""],
+			"message": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["topic"],
+			"forum_id": ["4"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=4",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=forum&parent_forum_id=4",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["4"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=4",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=topic&forum_id=2",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__topic_add_form": [""],
+			"message": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["topic"],
+			"forum_id": ["2"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=2",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=poll&forum_id=5",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"poll_subject": ["None"],
+			"popup": ["1"],
+			"_qf__poll_add_form": [""],
+			"options[0]": ["None"],
+			"options[1]": ["None"],
+			"poll_text": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["poll"],
+			"forum_id": ["5"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=5",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=topic&forum_id=5",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__topic_add_form": [""],
+			"message": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["topic"],
+			"forum_id": ["5"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=5",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=forum&parent_forum_id=5",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["5"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=5",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=poll&forum_id=3",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"poll_subject": ["None"],
+			"popup": ["1"],
+			"_qf__poll_add_form": [""],
+			"options[0]": ["None"],
+			"options[1]": ["None"],
+			"poll_text": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["poll"],
+			"forum_id": ["3"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=3",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=poll&forum_id=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"poll_subject": ["None"],
+			"popup": ["1"],
+			"_qf__poll_add_form": [""],
+			"options[0]": ["None"],
+			"options[1]": ["None"],
+			"poll_text": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["poll"],
+			"forum_id": ["1"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=topic&forum_id=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__topic_add_form": [""],
+			"message": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["topic"],
+			"forum_id": ["1"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["statistics"],
+			"option": ["user"],
+			"sel_user": ["admin"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=statistics&option=system",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=forum&parent_forum_id=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["1"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=topic&forum_id=3",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__topic_add_form": [""],
+			"message": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["topic"],
+			"forum_id": ["3"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=3",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=forum&parent_forum_id=3",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["3"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=3",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=forum&parent_forum_id=2",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["2"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum&forum=2",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=appearance&tab=main",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"site_name": ["eFront"],
+			"site_motto": ["Refreshing eLearning"],
+			"additional_footer": [""],
+			"_qf__appearance_main_form": [""],
+			"logout_redirect": [""],
+			"motto_on_header": ["None"],
+			"show_footer": ["1"],
+			"display_empty_blocks": ["1"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=appearance&tab=logo",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"logo_max_width": ["200"],
+			"logo_max_height": ["150"],
+			"site_logo": ["None"],
+			"normalize_dimensions": ["1"],
+			"_qf__appearance_logo_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=appearance&tab=favicon",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"_qf__appearance_favicon_form": [""],
+			"default_favicon": ["None"],
+			"favicon": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["system_config"],
+			"op": ["appearance"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=themes&theme=2",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["themes"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=themes&theme=2",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add_default": ["1"],
+			"ctg": ["digests"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=digests",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["statistics"],
+			"option": ["lesson"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=statistics",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["statistics"],
+			"option": ["user"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=statistics",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=forum&add=1&type=forum&parent_forum_id=0",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__forum_add_form": [""],
+			"comments": [""],
+			"popup": ["1"],
+			"title": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add": ["1"],
+			"ctg": ["forum"],
+			"type": ["forum"],
+			"parent_forum_id": ["0"],
+			"popup": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=forum",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=general&tab=security",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"eliminate_post_xss": ["1"],
+			"password_reminder": ["1"],
+			"file_black_list": ["php,php3,jsp,asp,cgi,pl,exe,com,bat"],
+			"password_length": ["6"],
+			"file_white_list": [""],
+			"force_change_password": ["None"],
+			"_qf__general_security_form": [""],
+			"constrain_access": ["1"],
+			"autologout_time": ["5"],
+			"updater_period": ["100000"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=general&tab=locale",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"thousands_sep": [","],
+			"_qf__general_locale": [""],
+			"decimal_point": ["."],
+			"onelanguage": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=general&tab=smtp",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"smtp_auth": ["None"],
+			"smtp_port": ["25"],
+			"smtp_host": ["localhost"],
+			"system_email": ["admin@admin.om"],
+			"smtp_user": [""],
+			"smtp_pass": [""],
+			"smtp_timeout": ["3"],
+			"_qf__general_smtp": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=general&tab=php",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"max_file_size": ["50000"],
+			"memory_limit": ["128"],
+			"_qf__general_php_form": [""],
+			"max_execution_time": ["60"],
+			"gz_handler": ["1"],
+			"debug_mode": [""],
+			"compress_tests": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["system_config"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["user_groups"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["user_types"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["directions"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=courses",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"import_content": ["None"],
+			"_qf__import_course_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["courses"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=lessons",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"MAX_FILE_SIZE": ["2097152"],
+			"import_content": ["None"],
+			"_qf__import_lesson_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["lessons"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=control_panel",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"pdf": ["user"],
+			"ctg": ["statistics"],
+			"option": ["user"],
+			"sel_user": ["admin"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=statistics&option=user&sel_user=admin",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["statistics"],
+			"excel": ["user"],
+			"option": ["user"],
+			"sel_user": ["admin"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=statistics&option=user&sel_user=admin",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"edit_user": ["admin"],
+			"ctg": ["users"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=statistics&option=user&sel_user=admin",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=customization&tab=disable",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"disable_calendar": ["0"],
+			"disable_feedback": ["0"],
+			"disable_tooltip": ["0"],
+			"_qf__customization_disable_form": [""],
+			"disable_help": ["0"],
+			"disable_bookmarks": ["0"],
+			"disable_glossary": ["0"],
+			"disable_news": ["0"],
+			"disable_change_info": ["0"],
+			"disable_payments": ["0"],
+			"disable_tests": ["0"],
+			"disable_projects": ["0"],
+			"disable_move_blocks": ["0"],
+			"disable_messages": ["0"],
+			"disable_change_pass": ["0"],
+			"disable_comments": ["0"],
+			"disable_forum": ["0"],
+			"chat_enabled": ["None"],
+			"disable_online_users": ["0"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["system_config"],
+			"op": ["customization"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=system_config&op=appearance",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=external&tab=main",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__external_main_form": [""],
+			"api": ["None"],
+			"virtual_keyboard": ["1"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=external&tab=math",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__external_math_form": [""],
+			"math_content": ["None"],
+			"math_server": ["http://www.imathas.com/cgi-bin/mimetex.cgi"],
+			"math_images": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=external&tab=livedocx",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"phplivedocx_server": ["https://api.livedocx.com/1.2/mailmerge.asmx?WSDL"],
+			"phplivedocx_password": [""],
+			"phplivedocx_username": [""],
+			"_qf__external_livedocx_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["system_config"],
+			"op": ["external"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=system_config&op=appearance",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=user&tab=main",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"reset_license_note": ["None"],
+			"mail_activation": ["None"],
+			"signup": ["1"],
+			"license_note": [""],
+			"_qf__user_main_form": [""],
+			"show_license_note": ["None"],
+			"username_format": ["#surname# #n#. (#login#)"],
+			"activation": ["1"],
+			"lesson_enroll": ["1"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=user&tab=multiple_logins",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__user_multiple_logins_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=system_config&op=user&tab=webserver_authentication",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"username_variable": ["$_SERVER[\"REMOTE_USER\"]"],
+			"webserver_registration": ["None"],
+			"_qf__user_webserver_authentication_form": [""],
+			"registration_file": ["includes/webserver_registration.php"],
+			"unauthorized_page": ["themes/default/external/default_unauthorized_page.html"],
+			"error_page": ["themes/default/external/default_error_page.html"],
+			"webserver_auth": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["system_config"],
+			"op": ["user"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=system_config&op=appearance",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["system_config"],
+			"op": ["general"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=system_config&op=appearance",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=user_groups&add_user_group=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__add_group_form": [""],
+			"key_max_usage": ["None"],
+			"description": ["None"],
+			"name": ["None"],
+			"unique_key": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["user_groups"],
+			"add_user_group": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=user_groups",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=user_types&add_user_type=1&basic_type=student",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"name": ["None"],
+			"_qf__add_type_form": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["user_types"],
+			"add_user_type": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=user_types",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=directions&edit_direction=2",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__add_directions_form": [""],
+			"name": ["Programming"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["directions"],
+			"edit_direction": ["2"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=directions",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=directions&edit_direction=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__add_directions_form": [""],
+			"name": ["Ancient Civilizations"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"ctg": ["directions"],
+			"edit_direction": ["1"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=directions",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=directions&add_direction=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"_qf__add_directions_form": [""],
+			"name": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add_direction": ["1"],
+			"ctg": ["directions"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=directions",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=lessons&add_lesson=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"clone_lesson": [""],
+			"name": ["None"],
+			"price": ["0"],
+			"course_only": ["None"],
+			"share_folder": [""],
+			"_qf__add_lessons_form": [""],
+			"show_catalog": ["1"],
+			"active": ["1"],
+			"copy_properties": [""]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add_lesson": ["1"],
+			"ctg": ["lessons"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=lessons",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}, {
+		"url": "https://app5.com/www/administrator.php?ctg=courses&add_course=1",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"active": ["1"],
+			"_qf__add_courses_form": [""],
+			"show_catalog": ["1"],
+			"price": ["0"],
+			"name": ["None"]
+		}
+	}, {
+		"url": "https://app5.com/www/administrator.php",
+		"param": {
+			"add_course": ["1"],
+			"ctg": ["courses"]
+		},
+		"headers": {
+			"referer": "https://app5.com/www/administrator.php?ctg=courses",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"type": "GET"
+	}]
+}

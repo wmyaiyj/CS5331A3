@@ -1,0 +1,2451 @@
+{
+	"urls": [{
+		"url": "https://app4.com/index.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "false",
+		"param": {
+			"username": ["user@user.com"],
+			"password": ["user"],
+			"dologin": ["1"]
+		}
+	}, {
+		"url": "https://app4.com/bug.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"bugid": ["None"],
+			"op": ["show"]
+		}
+	}, {
+		"url": "https://app4.com/index.php",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/bug.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"last_modified_date": ["1460993194"],
+			"op": ["mass_update"]
+		}
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"status[]": ["1"],
+			"op": ["doquery"]
+		},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/user.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"do": ["changepassword"],
+			"pass1": ["None"],
+			"pass2": ["None"]
+		}
+	}, {
+		"url": "https://app4.com/docs/html/userguide.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/user.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"do": ["changeprefs"],
+			"preferences[]": ["saved_queries"],
+			"def_results": ["20"]
+		}
+	}, {
+		"url": "https://app4.com/user.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"do": ["changecolumnlist"],
+			"column_list[]": ["None"]
+		}
+	}, {
+		"url": "https://app4.com/user.php",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"reportedby": ["1"],
+			"open": ["1"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"bookmarked": ["1"],
+			"open": ["1"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"bookmarked": ["1"],
+			"open": ["0"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"reportedby": ["1"],
+			"open": ["0"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1"],
+			"status[]": ["1"],
+			"order": ["resolution_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1"],
+			"status[]": ["1"],
+			"order": ["status_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1"],
+			"status[]": ["1"],
+			"order": ["severity_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1"],
+			"status[]": ["1"],
+			"order": ["reporter"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/bug.php",
+		"param": {
+			"op": ["add"]
+		},
+		"headers": {
+			"referer": "https://app4.com/index.php",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1"],
+			"status[]": ["1"],
+			"order": ["title"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1"],
+			"status[]": ["1"],
+			"order": ["owner"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1"],
+			"status[]": ["1"],
+			"order": ["priority_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1"],
+			"status[]": ["1"],
+			"order": ["bug_id"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/bugdetail.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/userguide.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/index.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/userguide.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/bugsearch.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/userguide.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/bug.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"last_modified_date": ["1460993195"],
+			"op": ["mass_update"]
+		}
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["bug_id"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=bug_id&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["priority_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=priority_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["reporter"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=reporter&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["severity_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=severity_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["resolution_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=status_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["status_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=status_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["resolution_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=resolution_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["status_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=resolution_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["owner"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=owner&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["title"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=title&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/schema.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/index.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/devstandards.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/index.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/devguide.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/index.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/configuration.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/index.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/installation.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/index.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/docs/html/adminguide.html",
+		"param": {},
+		"headers": {
+			"referer": "https://app4.com/docs/html/bugdetail.html",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/bug.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"last_modified_date": ["1460993196"],
+			"op": ["mass_update"]
+		}
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=reporter&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=resolution_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=resolution_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=resolution_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=priority_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=owner&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=owner&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=reporter&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=owner&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=priority_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=severity_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=bug_id&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=title&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=bug_id&page=1&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=title&page=1&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=priority_name&page=1&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=severity_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/bug.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"last_modified_date": ["1460993197"],
+			"op": ["mass_update"]
+		}
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=severity_name&page=1&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=1&order=status_name&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["priority_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=resolution_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["severity_name"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=resolution_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=reporter&page=1&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"bookmarked": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0&order=owner&page=1&page=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["reporter"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=resolution_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["title"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=resolution_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["bug_id"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=resolution_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"op": ["doquery"],
+			"page": ["1", "1"],
+			"status[]": ["1"],
+			"order": ["owner"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=doquery&order=resolution_name&page=1&sort=asc&status%5B%5D=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=bug_id&page=1&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["1"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&order=title&page=1&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1"],
+			"open": ["1"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=1&reportedby=1",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"bookmarked": ["1"],
+			"page": ["1"],
+			"open": ["0"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?bookmarked=1&op=mybugs&open=0",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=priority_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/bug.php",
+		"loginurl": "https://app4.com/index.php",
+		"type": "POST",
+		"loginrequired": "true",
+		"param": {
+			"last_modified_date": ["1460993198"],
+			"op": ["mass_update"]
+		}
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=priority_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["status_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=priority_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["priority_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["asc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=status_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["bug_id"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=bug_id&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["reporter"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=reporter&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["owner"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=owner&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["title"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=title&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["severity_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=severity_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}, {
+		"url": "https://app4.com/query.php",
+		"param": {
+			"sort": ["desc"],
+			"reportedby": ["1"],
+			"page": ["1", "1"],
+			"open": ["0"],
+			"order": ["resolution_name"],
+			"op": ["mybugs"]
+		},
+		"headers": {
+			"referer": "https://app4.com/query.php?op=mybugs&open=0&order=resolution_name&page=1&reportedby=1&sort=asc",
+			"cookie": "PHPSESSID=j614esdl650mi89oub3gffhio1",
+			"user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+		},
+		"loginrequired": "true",
+		"loginurl": "https://app4.com/index.php",
+		"type": "GET"
+	}]
+}

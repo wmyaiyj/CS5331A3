@@ -1,0 +1,380 @@
+[
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/query.php", 
+    "param": {
+      "sort": [
+        "desc"
+      ], 
+      "open": [
+        "1"
+      ], 
+      "order": [
+        "priority_name"
+      ], 
+      "projects": [
+        "3'"
+      ], 
+      "op": [
+        "doquery"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/index.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/query.php?sort=desc&open=1&order=priority_name&projects=3'&op=doquery", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/bug.php", 
+    "param": {
+      "project": [
+        "1'"
+      ], 
+      "op": [
+        "add"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/index.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/bug.php?project=1'&op=add", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/project.php", 
+    "param": {
+      "id": [
+        "1'"
+      ], 
+      "op": [
+        "edit"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/project.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/project.php?id=1'&op=edit", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/priority.php", 
+    "param": {
+      "priority_id": [
+        "2'"
+      ], 
+      "op": [
+        "del"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/priority.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/priority.php?priority_id=2'&op=del", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/os.php", 
+    "param": {
+      "sort": [
+        "desc'"
+      ], 
+      "order": [
+        "sort_order"
+      ], 
+      "page": [
+        "0"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/os.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/os.php?sort=desc'&order=sort_order&page=0", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/status.php", 
+    "param": {
+      "op": [
+        "edit"
+      ], 
+      "status_id": [
+        "1'"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/status.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/status.php?op=edit&status_id=1'", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/severity.php", 
+    "param": {
+      "severity_id": [
+        "7'"
+      ], 
+      "op": [
+        "edit"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/severity.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/severity.php?severity_id=7'&op=edit", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/site.php", 
+    "param": {
+      "site_id": [
+        "5'"
+      ], 
+      "op": [
+        "edit"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/site.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/site.php?site_id=5'&op=edit", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/resolution.php", 
+    "param": {
+      "resolution_id": [
+        "4'"
+      ], 
+      "op": [
+        "edit"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/resolution.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/resolution.php?resolution_id=4'&op=edit", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/database.php", 
+    "param": {
+      "database_id": [
+        "2'"
+      ], 
+      "op": [
+        "edit"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/database.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/database.php?database_id=2'&op=edit", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/group.php", 
+    "param": {
+      "group_id": [
+        "7'"
+      ], 
+      "op": [
+        "edit-role"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/group.php?op=list-roles", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/group.php?group_id=7'&op=edit-role", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }, 
+  {
+    "loginpayload": {
+      "username": [
+        "admin@admin.com"
+      ], 
+      "password": [
+        "admin"
+      ], 
+      "dologin": [
+        "1"
+      ]
+    }, 
+    "url": "https://app4.com/admin/user.php", 
+    "param": {
+      "groupfilter": [
+        "0"
+      ], 
+      "user_id": [
+        "4'"
+      ], 
+      "userfilter": [
+        "0"
+      ], 
+      "op": [
+        "edit"
+      ]
+    }, 
+    "headers": {
+      "referer": "https://app4.com/admin/user.php", 
+      "user-agent": "Scrapy/1.0.5 (+http://scrapy.org)"
+    }, 
+    "newurl": "https://app4.com/admin/user.php?groupfilter=0&user_id=4'&userfilter=0&op=edit", 
+    "loginrequired": "true", 
+    "loginurl": "https://app4.com/index.php", 
+    "type": "GET"
+  }
+]

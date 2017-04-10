@@ -1,0 +1,391 @@
+{
+	"loginurls": [ {
+		"name": "app1_bryce",
+		"domain": "app1.com",
+		"start_url": "https://app1.com",
+		"login_page": "https://app1.com/users/login.php",
+		"loginurl": "https://app1.com/users/login.php",
+		"ignore_params": ["date"],
+		"username_field": "username",
+		"password_field": "password",
+		"loginpayload": {
+			"username": "bryce",
+			"password": "bryce"
+		}
+	},{
+		"name": "app4",
+		"domain": "app4.com",
+		"start_url": "https://app4.com/index.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "username",
+		"password_field": "password",
+		"loginpayload": {
+			"username": "",
+			"password": ""
+		}
+	},{
+		"name": "app4_admin",
+		"domain": "app4.com",
+		"start_url": "https://app4.com/index.php",
+		"login_page": "https://app4.com/index.php",
+		"loginurl": "https://app4.com/index.php",
+		"ignore_params": [],
+		"username_field": "username",
+		"password_field": "password",
+		"loginpayload": {
+			"username": "admin@admin.com",
+			"password": "admin"
+		}
+	},{
+		"name": "app4_developer",
+		"domain": "app4.com",
+		"start_url": "https://app4.com/index.php",
+		"loginurl": "https://app4.com/index.php",
+		"login_page": "https://app4.com/index.php",
+		"ignore_params": [],
+		"username_field": "username",
+		"password_field": "password",
+		"loginpayload": {
+			"username": "dev@dev.com",
+			"password": "developer"
+		}
+	},{
+		"name": "app4_manager",
+		"domain": "app4.com",
+		"start_url": "https://app4.com/index.php",
+		"login_page": "https://app4.com/index.php",
+		"loginurl": "https://app4.com/index.php",
+		"ignore_params": [],
+		"username_field": "username",
+		"password_field": "password",
+		"loginpayload": {
+			"username": "manager@manager.com",
+			"password": "manager"
+		}
+	},{
+		"name": "app4_user",
+		"domain": "app4.com",
+		"start_url": "https://app4.com/index.php",
+		"login_page": "https://app4.com/index.php",
+		"loginurl": "https://app4.com/index.php",
+		"ignore_params": [],
+		"username_field": "username",
+		"password_field": "password",
+		"loginpayload": {
+			"username": "user@user.com",
+			"password": "user"
+		}
+	},{
+		"name": "app5_admin",
+		"domain": "app5.com",
+		"start_url": "https://app5.com/www/index.php",
+		"login_page": "https://app5.com/www/index.php",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"ignore_params": ["view_calendar"],
+		"username_field": "login",
+		"password_field": "password",
+		"loginpayload": {
+			"login": "admin",
+			"password": "admin"
+		}
+	},{
+		"name": "app5_professor",
+		"domain": "app5.com",
+		"start_url": "https://app5.com/www/index.php",
+		"login_page": "https://app5.com/www/index.php",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"ignore_params": ["view_calendar"],
+		"username_field": "login",
+		"password_field": "password",
+		"loginpayload": {
+			"login": "professor",
+			"password": "professor"
+		}
+	},{
+		"name": "app5_student",
+		"domain": "app5.com",
+		"start_url": "https://app5.com/www/index.php",
+		"login_page": "https://app5.com/www/index.php",
+		"loginurl": "https://app5.com/www/index.php?index_page",
+		"ignore_params": ["view_calendar"],
+		"username_field": "login",
+		"password_field": "password",
+		"loginpayload": {
+			"login": "student",
+			"password": "student"
+		}
+	},{
+		"name": "app2_admin",
+		"domain": "app2.com",
+		"start_url": "https://app2.com",
+		"login_page": "https://app2.com/login/index.php",
+		"loginurl": "https://app2.com/login/index.php",
+		"ignore_params": ["cal_y"],
+		"username_field": "username",
+		"password_field": "password",
+		"loginpayload": {
+			"username": "admin",
+			"password": "AdminAdmin1!"
+		}
+	},{
+		"name": "app7",
+		"domain": "app7.com",
+		"start_url": "https://app7.com/index.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}	},{
+		"name": "app10",
+		"domain": "app10.com",
+		"start_url": "http://app10.com/index.php",
+		"login_page": "",
+		"loginurl": "",
+		"username_field": "email",
+		"password_field": "password",
+		"ignore_params": [],
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "app9_admin",
+		"domain": "app9.com",
+		"start_url": "https://app9.com/index-test.php/site/login",
+		"login_page": "https://app9.com/index-test.php/site/login",
+		"loginurl": "https://app9.com/index-test.php/site/login",
+		"ignore_params": [],
+		"username_field": "LoginForm[username]",
+		"password_field": "LoginForm[password]",
+		"loginpayload": {
+			"LoginForm[username]": "admin",
+			"LoginForm[password]": "admin"
+		}
+	},{
+		"name": "app9_test",
+		"domain": "app9.com",
+		"start_url": "https://app9.com/index-test.php/site/login",
+		"login_page": "https://app9.com/index-test.php/site/login",
+		"loginurl": "https://app9.com/index-test.php/site/login",
+		"ignore_params": [],
+		"username_field": "LoginForm[username]",
+		"password_field": "LoginForm[password]",
+		"loginpayload": {
+			"LoginForm[username]": "test",
+			"LoginForm[password]": "test"
+		}
+
+	},{
+		"name": "app8_test",
+		"domain": "app8.com",
+		"start_url": "https://app8.com/upload/index.php",
+		"login_page": "https://app8.com/upload/index.php?route=account/login",
+		"loginurl": "https://app8.com/upload/index.php?route=account/login",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "test@test.com",
+			"password": "test"
+		}
+	},{
+		"name": "app8_test",
+		"domain": "app8.com",
+		"start_url": "https://app8.com/upload/index.php",
+		"login_page": "https://app8.com/upload/index.php?route=account/login",
+		"loginurl": "https://app8.com/upload/index.php?route=account/login",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "test@test.com",
+			"password": "test"
+		}
+	},{
+		"name": "app8_test",
+		"domain": "app8.com",
+		"start_url": "https://app8.com/upload/index.php",
+		"login_page": "https://app8.com/upload/index.php?route=account/login",
+		"loginurl": "https://app8.com/upload/index.php?route=account/login",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "test@test.com",
+			"password": "test"
+		}
+	},{
+		"name": "app8_test",
+		"domain": "app8.com",
+		"start_url": "https://app8.com/upload/index.php",
+		"login_page": "https://app8.com/upload/index.php?route=account/login",
+		"loginurl": "https://app8.com/upload/index.php?route=account/login",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "test@test.com",
+			"password": "test"
+		}
+	},{
+		"name": "bm1",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm1.php",
+		"login_page": "https://bm1.com/bm1.php",
+		"loginurl": "https://bm1.com/bm1.php",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm2",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm2.php",
+		"login_page": "",
+		"loginurl": "https://bm1.com/bm2.php",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm3",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm3.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm4",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm4.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm5",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm5.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm6",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm6.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm7",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm7.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm8",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm8.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm9",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm9.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm10",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm10.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm11",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm11.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	},{
+		"name": "bm12",
+		"domain": "bm1.com",
+		"start_url": "https://bm1.com/bm12.php",
+		"login_page": "",
+		"loginurl": "",
+		"ignore_params": [],
+		"username_field": "email",
+		"password_field": "password",
+		"loginpayload": {
+			"email": "",
+			"password": ""
+		}
+	}]
+}

@@ -7,8 +7,10 @@ import requests
 
 class Injection:
 	def __init__(self, phase2_payload, login_info, injection_info):
-	"""InjectionType has two attributes: 
-	method(GET/POST) and requirelogin(true/false)
+	"""Injection has three inputs: 
+	phase2_payload from phase 2
+	"login_info"("loginurl") from info.json(config.json)
+	"urls" from app_user.json(for example app4_admin.json)
 	"""
 		self.payloadStore = {}
 		self.app_user=sys.argv[1:][0]
@@ -28,7 +30,7 @@ class Injection:
 		checkUrls = data["urls"]
 		vulnerableUrl = {}
 						
-	def Check_Type(self)
+	def Check_Type(self):
 	"""Match injection_type with respective function"""
 		for urls in data["urls"]:	
 			url = urls["url"]
